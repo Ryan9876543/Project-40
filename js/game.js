@@ -56,12 +56,13 @@ class Game{
                      players[index -1].x = x;
                      players[index - 1].y = y;
                        
+                     
                      if(index === player.index){
                          
-                         fill("red");
-                         textSize(20);
-                         // add code to display the player name on the respective basket
-                        
+                        fill("red");
+                        textSize(20);
+                        //add code to display the player's name on the respective basket.
+                        text(allPlayers[plr].name ,x-25,y+25);
                          
                      }
                     
